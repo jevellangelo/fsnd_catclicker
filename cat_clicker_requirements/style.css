@@ -1,0 +1,23 @@
+body {
+	background-color: #CCC;
+}
+
+#title {
+	color:black;
+	text-shadow: 1px 1px 3px rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+#cat-container {
+	display:block;
+	width: 80%;
+	padding: 10px;
+	margin: 0 auto;
+	max-width: 1400px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+#cat-picture {
+	width: 100%;
+}
+
