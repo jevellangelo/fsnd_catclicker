@@ -1,0 +1,47 @@
+body {
+	background-color: #CCC;
+	margin: 0;
+}
+
+#title {
+	color:black;
+	text-shadow: 1px 1px 3px rgba(255,255,255,0.5);
+	text-align: center;
+}
+
+#cat-list {
+	border: 1em solid #ccc;
+	border-width: 1em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display:inline;
+	margin: 1em;
+	margin-top: 1em;
+}
+
+#cat-container {
+	display:flex;
+	background-color: rgba(255,255,255,0.7);
+	max-width: 800px;
+	margin: 0 auto;
+	width: auto;
+	max-height: 800px;
+}
+
+
+figure {
+	max-width: 800px;
+	margin: 0 auto;
+	height auto;
+}
+
+#cat-name {
+	display:flex;
+	text-align: center;
+}
+

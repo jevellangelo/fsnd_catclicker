@@ -8,16 +8,26 @@ body {
 	text-align: center;
 }
 
-#cat-container {
-	display:block;
-	width: 80%;
-	padding: 10px;
-	margin: 0 auto;
-	max-width: 1400px;
-	background-color: rgba(255,255,255,0.7);
+#cat-container > figure > img  {
+	height: 100%;
+	box-sizing: border-box;
+	max-height: 100%;
+	max-width: 100%;
+	width: 100%;
 }
 
-#cat-picture {
-	width: 100%;
+#cat-container {
+	display:flex;
+	background-color: rgba(255,255,255,0.7);
+	max-width: 1400px;
+	max-height: 800px;
+	padding: 1em;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+}
+
+figure {
+	display: table;
 }
 
